@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/wybierz_metode"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHint="#00000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFatProt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Button
+        android:id="@+id/buttonFatProt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="220dp"
+        android:height="120dp"
+        android:lineSpacingExtra="5sp"
+        android:minWidth="220dp"
+        android:onClick="CalcCarbProteins"
+        android:text="@string/metoda_bia_ka_t_uszcze"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMain" />
+
+    <Button
+        android:id="@+id/buttonKcalCarbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:height="120dp"
+        android:lineSpacingExtra="5sp"
+        android:minWidth="220dp"
+        android:onClick="CalcKcalCarbs"
+        android:text="@string/metoda_kcal_w_glowodany"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFatProt" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="Exit"
+        android:text="@string/wyj_cie" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

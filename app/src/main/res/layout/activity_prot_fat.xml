@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="LabelFor">
+
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/wprowad_dane"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/editFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@id/textFat"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/textFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/ilo_t_uszczu_g"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editProt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:labelFor="@id/textProts" />
+
+    <TextView
+        android:id="@+id/textProts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/ilo_bia_ka_g"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:enabled="false"
+        android:text="@string/oblicz"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/Wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCPback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wr" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

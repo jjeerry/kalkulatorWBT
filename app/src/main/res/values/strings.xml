@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kalkulator WBT</string>
+    <string name="metoda_bia_ka_t_uszcze">Metoda \n Białka-Tłuszcze</string>
+    <string name="wybierz_metod">Wybierz Metodę</string>
+    <string name="metoda_kcal_w_glowodany">Metoda \n Kcal-Węglowodany</string>
+    <string name="wr">Wróć</string>
+    <string name="wprowad_dane">Wprowadź dane</string>
+    <string name="ilo_t_uszczu_g">ilość tłuszczu (g)</string>
+    <string name="ilo_bia_ka_g">ilość białka (g)</string>
+    <string name="oblicz">Oblicz</string>
+    <string name="ilo_kcal">Ilość Kcal</string>
+    <string name="ilo_w_glowodan_w_g">Ilość węglowodanów (g)</string>
+    <string name="wybierz_metode">Wybierz metodę</string>
+    <string name="wyj_cie">Wyjście</string>
+</resources>
